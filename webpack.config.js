@@ -26,14 +26,17 @@ module.exports = {
           // Creates `style` nodes from JS strings
           {
             loader: "style-loader",
-            options: { injectType: "singletonStyleTag" }
+            options: { 
+              injectType: "singletonStyleTag",
+              attributes: { id: 'eugevin' }
+            }
           },
-          // Translates CSS into CommonJS
-          "css-loader",
-          // Compiles Sass to CSS
-          "sass-loader"
+  // Translates CSS into CommonJS
+  "css-loader",
+  // Compiles Sass to CSS
+  "sass-loader"
         ]
-      }
+}
     ]
   }
 };

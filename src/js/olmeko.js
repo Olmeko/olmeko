@@ -24,17 +24,15 @@ window.addEventListener('scroll', () => {
   })
 })
 
-// circle card
-
-// eugevin
+// remove my styles
 
 console.log('\n\n\n\n\n\nPress "Alt + F1" to remove my styles from this site\n\n\n\n\n\n');
 
 window.addEventListener('keyup', e => {
   if (e.code == 'F1' && e.altKey == true) {
-    let styles = document.querySelectorAll('style');
+    let styles = document.querySelector('#eugevin');
 
-    styles[1].remove();
+    styles.remove();
   }
 })
 

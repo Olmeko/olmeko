@@ -282,7 +282,7 @@ a.call_me:hover {
 
   .bx-blue.bx-top-nav .bx-top-nav-container {
     border: none !important;
-  }s
+  }
 
   .bx-top-nav {
     display: none;
@@ -305,10 +305,6 @@ a.call_me:hover {
     border-radius: 100px;
     margin-left: 0px;
   }
-}
-
-.bx-blue.bx-top-nav .bx-top-nav-container {
-  background: rgba(223, 150, 78, 0.6);
 }
 
 .advantage .advantage_text {
@@ -435,4 +431,22 @@ a.call_me:hover {
   a:last-child {
     border-radius: 0 0 5px 5px;
   }
+}
+
+// header
+
+.bx-top-nav-container .bx-nav-1-lvl>a span {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #5c322a;
+}
+
+.bx-nav-list-2-lvl span {
+  color: #5c322a;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.bx-profile-block li > div:first-child .profile-text {
+  font-family: "Montserrat";
 }
