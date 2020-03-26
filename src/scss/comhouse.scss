@@ -1,0 +1,168 @@
+// Const
+
+$main-transition: 0.3s ease-in-out;
+$main-color: #ffaa34;
+
+// Main
+
+* {
+  font-family: "Montserrat", "Arial", sans-serif !important;
+}
+
+::selection {
+  background: $main-color;
+}
+
+// Old styles for fonts
+
+// body {
+//   font-family: "Montserrat Alternates", "Arial", sans-serif !important;
+// }
+
+/* Circle attachment for shop element */
+
+.product-item-scu-item-list .product-item-scu-item-color-container {
+  border: 2px solid transparent;
+}
+
+.product-item-scu-item-list {
+  .product-item-scu-item-color-container {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .selected {
+    border-radius: 50%;
+    border: 2px solid $main-color;
+    cursor: default !important;
+
+    .product-item-scu-item-color:hover {
+      border: 1px solid #fff !important;
+    }
+  }
+}
+
+.product-item-scu-item-color {
+  border-radius: 50%;
+  border: 1px solid #fff;
+
+  &:hover {
+    outline: none !important;
+    border: 2px solid rgba(51, 51, 51, 0.5);
+  }
+}
+
+/* Adaptive video iframe section */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .tab-pane iframe {
+    width: 481px !important;
+    height: 270px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .tab-pane iframe {
+    width: 300px !important;
+    height: 180px !important;
+  }
+}
+
+/* Slick Slider */
+
+.slick-slider {
+  .slick-arrow {
+    opacity: 0;
+    transition: $main-transition;
+    border-top: 4px solid #fff !important;
+    border-right: 4px solid #fff !important;
+
+    &:hover {
+      border-top: 4px solid $main-color !important;
+      border-right: 4px solid $main-color !important;
+    }
+  }
+
+  .btn-slick-big--prev {
+    left: -20px !important;
+  }
+
+  .btn-slick-big--next {
+    right: -20px !important;
+  }
+
+  .slick-dots-line {
+    position: relative;
+    bottom: 30px !important;
+    opacity: 1;
+    transition: $main-transition;
+  }
+
+  .slide-home__img img {
+    transition: $main-transition;
+  }
+
+  &:hover {
+    .slick-arrow {
+      opacity: 1;
+    }
+
+    .btn-slick-big--prev {
+      left: 20px !important;
+    }
+
+    .btn-slick-big--next {
+      right: 20px !important;
+    }
+
+    .slick-dots-line {
+      bottom: 30px !important;
+      opacity: 1;
+    }
+
+    .slide-home__img img {
+      transform: scale(1.01);
+    }
+  }
+}
+
+// Banner
+
+.slide-home__text {
+  z-index: 999;
+}
+
+// Fixed Header Comhouse
+
+.sticky-wrapper {
+  height: 176.875px !important;
+}
+
+// Fixed Bonus flex
+
+.pb-4 {
+  display: flex;
+  align-items: center;
+}
+
+// GoTop Button
+
+.btn-gotop {
+  opacity: 0;
+  margin-bottom: -20px;
+}
+
+// Header sticky call section
+
+.is-sticky .header .header__call {
+  padding-right: 70px;
+}
+
+// normal menu
+
+.menu-main .dropdown-menu {
+  margin-top: 0;
+}
+
+// phone call main page
+

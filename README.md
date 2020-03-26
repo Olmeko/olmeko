@@ -1,2 +1,2 @@
-# olmeko
-Repo for olmeko.ru
+# Олмеко
+Репозиторий с исходниками Webpack для Olmeko и Comhouse

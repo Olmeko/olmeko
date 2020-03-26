@@ -1,0 +1,438 @@
+// vars
+
+$default-color: #d49d6c;
+
+$default-border: 5px;
+
+// mainPageCarousel
+
+.dots_styled .slick-dots li button {
+  border: 2px solid #fff;
+  transition: .3s ease-in-out;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.dots_styled .slick-dots li.slick-active button {
+  background: #fff;
+}
+
+// scrollbar
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #5c322a;
+  outline: 1px solid slategrey;
+}
+
+// cards
+
+.popup-window {
+  min-width: 30%;
+}
+
+.popup-window.popup-window-with-titlebar {
+  border-radius: 5px;
+
+  .bx_catalog_list_home {
+    background: none !important;
+  }
+}
+
+.popup-window-buttons span {
+  border-radius: 5px;
+  border: solid 3px transparent;
+
+  &:first-child {
+
+    .btn {
+      color: #fff;
+
+      &:hover {
+        background: #da4747;
+      }
+    }
+  }
+
+  &:last-child {
+    
+    .btn {
+      text-decoration: underline;
+
+      &:hover {
+        color: #5c322a;
+        background: none;
+        text-decoration: none;      
+      }
+    }
+  }
+}
+
+.popup-window-with-titlebar .popup-window-content {
+  background: none;
+}
+
+.popup-window-titlebar {
+  text-align: center;
+}
+
+.popup-window-close-icon:after {
+  height: 20px;
+  width: 20px;
+}
+
+.popup-window {
+  padding-bottom: 20px !important;
+}
+
+.popup-window-buttons {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.popup-window-titlebar div {
+  margin-top: 10px;
+  font-size: 20px !important;
+}
+
+.popup-window-buttons {
+  padding: 0 0 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.popup-window-buttons span {
+  text-decoration: none;
+  background: none;
+
+  &:last-child {
+    background: none;
+    text-decoration: underline;
+    color: #5c322a;
+
+    span {
+      background: none;
+      text-decoration: underline;
+      color: #5c322a;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &:first-child {
+    background: #5c322a;
+    color: #fff;
+    text-decoration: none;
+    
+    span {
+      background: #5c322a;
+      color: #fff;
+    }
+  }
+}
+
+.popup-window-content img {
+  width: 100%;
+  max-height: none !important;
+}
+
+span .btn150 {
+  margin-right: 0 !important;
+  display: inline !important;
+}
+
+// navigation selectors
+
+div.modern-page-navigation a, span.modern-page-current, span.modern-page-dots {
+  padding: 0 .75em;
+}
+
+div.modern-page-navigation a.modern-page-first, div.modern-page-navigation span.modern-page-first {
+  padding: 0 .75em;
+}
+
+.arrows_styled .slick-arrow:hover {
+  background-color: #eee;
+}
+
+// search
+
+#search2, #search {
+  border-radius: 100px;
+}
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+// * {
+//   font-family: "Montserrat", "Arial", sans-serif !important;
+// }
+
+// buttons
+
+.bx_catalog_list_home .bx_catalog_item_controls .btn {
+  border-radius: 5px !important;
+}
+
+.bx_catalog_list_home .btn {
+  padding: 10px 20px 10px !important;
+  font-weight: 700 !important;
+  font-family: "Montserrat" !important;
+}
+
+.bx_catalog_item_title a {
+  font-weight: 700;
+}
+
+.bx_price {
+  font-weight: 700;
+}
+
+// cart
+
+.remove:hover {
+  transform: none;
+}
+
+// button for footer 
+
+a.call_me:hover {
+  color: #5c322a !important;
+}
+
+.bx-footer .contacts .call_me {
+  margin-top: 3px;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #df964e;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.bx-footer .contacts .phone a {
+  font-size: 34px;
+  text-decoration: none !important;
+}
+
+// header
+
+.bx-inc-orginfo.border {
+  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+}
+
+.top-menu {
+  border-right: none;
+}
+
+.call-me-top-button:active, .call-me-top-button:visited, .call-me-top-button:focus, .call-me-top-button:hover {
+  color: #5c322a;
+  text-decoration: none;
+}
+
+.call-me-top-button {
+  background-color: #d49d6c;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 100px;
+  vertical-align: none; 
+  line-height: none; 
+  padding: none; 
+  float: none; 
+  color: #fff;
+  text-decoration: none;
+}
+
+.bx-header-grey {
+  background: none;
+}
+
+.bx-logo-new {
+  padding-left: 52px;
+}
+
+.wrapGeoIpReaspekt .linkReaspekt {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+// footer
+
+.fixed_header {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  padding: 20px;
+  height: unset !important;
+  transition: .3s ease-in-out;
+
+  .bx-blue.bx-top-nav .bx-top-nav-container {
+    border: none !important;
+  }s
+
+  .bx-top-nav {
+    display: none;
+  }
+
+  .payment {
+    margin-left: 10px !important;
+  }
+
+  .bx-profile-block {
+    margin-top: 9px;
+  }
+
+  .phone_link {
+    font-family: "Circe-Regular";
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #d49d6c;
+    border: none;
+    border-radius: 100px;
+    margin-left: 0px;
+  }
+}
+
+.bx-blue.bx-top-nav .bx-top-nav-container {
+  background: rgba(223, 150, 78, 0.6);
+}
+
+.advantage .advantage_text {
+  line-height: 1.3;
+  font-size: 20px;
+  font-family: "Circe-Regular" !important;
+}
+
+// slider
+
+.main_slider {
+  margin-top: 30px;
+  max-height: 340px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4); 
+  border-radius: 10px;
+}
+
+.slick-arrow {
+  width: 83px !important;
+  height: 100% !important;
+  border: 10px 0 0 10px !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  opacity: 0.5 !important;
+
+  &:hover {
+    opacity: 1 !important;
+  }
+}
+
+.slick-prev, .slick-next {
+  position: relative;
+  background: url('/local/templates/olmeko/js/eugevin/arrow-prev.svg') no-repeat !important;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url('/local/templates/olmeko/img/arrow-black.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.detailed_slider_wr .slick-arrow {
+  display: none !important;
+}
+
+// adaptive for slider
+
+@media (max-width: 1000px) {
+  .main_slider .slick-dots {
+    display: none !important;
+  }
+
+  .slick-arrow {
+    display: none !important;
+  }
+}
+
+// card
+
+.detailed_price_wr {
+  padding: 8px 20px 8px !important;
+  border-radius: $default-border;
+}
+
+.link_add-favorites span {
+  border-bottom: none !important;
+}
+
+.detailed_enlarge_wr {
+  border-radius: 5px;
+}
+
+.link_add-basket {
+  border-radius: $default-border;
+}
+
+.add-favorite, .detailed_reviews {
+  font-weight: bold;
+}
+
+.add-favorite, .detailed_reviews {
+  border-bottom: none !important;
+  color: #5c322a;
+
+  b {
+    color: #5c322a;
+  }
+
+  &:hover {
+
+    b {
+      text-decoration: underline !important;
+    }
+
+    text-decoration: underline !important;
+  }
+}
+
+.detailed_enlarge_wr {
+  display: block;
+}
+
+.detailed_info-bottom a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.detailed_option_list {
+
+  a:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+
+  a:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+}
