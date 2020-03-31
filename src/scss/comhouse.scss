@@ -166,3 +166,6 @@ $main-color: #ffaa34;
 
 // phone call main page
 
+.slick-arrow:hover img, .slick-slider img, .slide-home__img:hover img {
+  transform: scale(1) !important;
+}

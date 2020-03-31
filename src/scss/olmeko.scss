@@ -230,6 +230,10 @@ a.call_me:hover {
   text-decoration: none !important;
 }
 
+.bx-footer .contacts {
+  text-align: left;
+}
+
 // header
 
 .bx-inc-orginfo.border {
@@ -449,4 +453,19 @@ a.call_me:hover {
 
 .bx-profile-block li > div:first-child .profile-text {
   font-family: "Montserrat";
+}
+
+// oneClick
+
+.modal-content .form-group {
+  display: flex;
+  align-items: center;
+}
+
+.bx_catalog_item_controls .btn {
+  transition: .3s ease-in-out;
+
+  &:active {
+    transform: scale(0.95);
+  }
 }

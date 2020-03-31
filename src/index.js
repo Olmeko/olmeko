@@ -6,6 +6,8 @@ import "./js/comhouse";
 */
 // Olmeko
 
+import IMask from 'imask';
+
 import "./scss/olmeko.scss";
 
-import "./js/olmeko";;
+import "./js/olmeko";

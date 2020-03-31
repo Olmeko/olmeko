@@ -2445,6 +2445,11 @@ iferr@^0.1.5:
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
 
+imask@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/imask/-/imask-6.0.3.tgz#cddb382b034660730a678b48321febfa6d2a627f"
+  integrity sha512-OE6qySFaLUBMLLdcYMaVeCt0MadFs2sn1TcTgdcADsziET2LKU0RFbL5YJtfc9Rj1RLpOWMeV8AXCimGoJBM+w==
+
 import-local@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/import-local/-/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
